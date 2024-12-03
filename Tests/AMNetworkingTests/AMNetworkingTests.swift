@@ -1,8 +1,8 @@
 //
-//  NetworkingTests.swift
+//  AMNetworkingTests.swift
 //  Networking
 //
-//  Created by Amir Daliri.
+//  Created by Amir Daliri on 3.12.2024.
 //
 
 import XCTest
