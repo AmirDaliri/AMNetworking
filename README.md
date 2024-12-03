@@ -1,42 +1,42 @@
-# AMNetworking
+# Networking
 
-AMNetworking is a Swift package that provides a set of awesome utilities to make Swift networking development easier and more fun.
+Networking is a Swift package that provides a set of awesome utilities to make Swift networking development easier and more fun.
 
 ## Table of Content
-- [Installation](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#installation)
-- [Building a Request](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#building-a-request)
-    - [How to add query params?](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#how-to-add-query-parameters)
-    - [How to add headers?](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#how-to-add-headers)
-    - [What about Authorization?](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#what-about-authorization)
-    - [How to add a body?](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#how-to-add-a-body)
-    - [How to add a time interval?](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#how-do-i-add-a-time-interval)
-- [Performing a Request](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#performing-a-request)
-    - [How to get an api response using Async/Await?](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#how-to-get-an-api-response-using-asyncawait)
-    - [How to make api call with Async/Await without decoding a response?](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#how-to-make-api-call-using-asyncawait-without-decoding-a-response)
-    - [How to get an api response using Completion Handler?](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#how-to-get-an-api-response-using-completion-handlers)
-    - [How to make api call with Completion Handler without decoding a response?](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#how-to-make-api-call-using-completion-handlers-without-decoding-a-response)
-- [Download file](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#download-files)
-- [Downlaod Image](https://github.com/AmirDaliri/AMNetworking?tab=readme-ov-file#download-images)
+- [Installation](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#installation)
+- [Building a Request](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#building-a-request)
+    - [How to add query params?](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#how-to-add-query-parameters)
+    - [How to add headers?](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#how-to-add-headers)
+    - [What about Authorization?](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#what-about-authorization)
+    - [How to add a body?](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#how-to-add-a-body)
+    - [How to add a time interval?](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#how-do-i-add-a-time-interval)
+- [Performing a Request](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#performing-a-request)
+    - [How to get an api response using Async/Await?](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#how-to-get-an-api-response-using-asyncawait)
+    - [How to make api call with Async/Await without decoding a response?](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#how-to-make-api-call-using-asyncawait-without-decoding-a-response)
+    - [How to get an api response using Completion Handler?](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#how-to-get-an-api-response-using-completion-handlers)
+    - [How to make api call with Completion Handler without decoding a response?](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#how-to-make-api-call-using-completion-handlers-without-decoding-a-response)
+- [Download file](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#download-files)
+- [Downlaod Image](https://github.com/AmirDaliri/Networking?tab=readme-ov-file#download-images)
  
 
 ## Installation
 
 ### Swift Package Manager
 
-To integrate AMNetworking into your Xcode project using Swift Package Manager, add the following dependency to your Package.swift file:
+To integrate Networking into your Xcode project using Swift Package Manager, add the following dependency to your Package.swift file:
 
 swift
 Copy code
 ```
 dependencies: [
-    .package(url: "https://github.com/AmirDaliri/AMNetworking.git", from: "2.1.0")
+    .package(url: "https://github.com/AmirDaliri/Networking.git", from: "2.1.0")
 ]
 ```
 Alternatively, you can add the package directly through Xcode:
 
 Open your project in Xcode.
 Go to File > Add Packages....
-Enter the package repository URL: https://github.com/AmirDaliri/AMNetworking.git.
+Enter the package repository URL: https://github.com/AmirDaliri/Networking.git.
 Choose the version and add the package to your project.
 
 
